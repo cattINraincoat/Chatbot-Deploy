@@ -1,0 +1,34 @@
+/* App.css */
+.app-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #f4f7fc;
+  }
+  
+  .input-container {
+    display: flex;
+    padding: 10px;
+    border-top: 1px solid #ddd;
+    background-color: white;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .input-box {
+    width: 80%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 25px;
+    outline: none;
+  }
+  
+  .send-button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+  }

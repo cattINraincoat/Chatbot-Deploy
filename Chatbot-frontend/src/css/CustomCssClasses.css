@@ -1,0 +1,21 @@
+.custom-header-cell {
+    background-color: black;
+    color: black;
+    font-weight: bold;
+  }
+  
+  .customDataGrid .MuiDataGrid-row {
+    background-color: #f5f5f5;
+  }
+  
+  .custom-centered-grid .ag-header-cell-label {
+    justify-content: center !important;
+    text-align: center !important;
+  }
+  .cell-required {
+    background-color: #ffcccc !important;
+    color: red !important;
+  
+    text-align: center;
+  }
+  

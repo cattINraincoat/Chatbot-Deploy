@@ -1,0 +1,86 @@
+.input-container {
+  display: flex;
+  align-items: center;
+  padding: 16px 24px;
+  background: #ffffffcc;
+  backdrop-filter: blur(10px);
+  border-top: 1px solid #e0e0e0;
+  box-shadow: 0 -4px 12px rgba(0, 0, 0, 0.05);
+  position: sticky;
+  bottom: 0;
+  z-index: 10;
+  border-radius: 10px;
+  margin-bottom: 0.5rem;
+}
+
+.input-box {
+  flex: 1;
+  padding: 14px 18px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  font-size: 15px;
+  background-color: #f0f2f5;
+  outline: none;
+  transition: box-shadow 0.2s ease;
+}
+
+.input-box:focus {
+  box-shadow: 0 0 0 2px #0078d4;
+  background-color: #ffffff;
+}
+
+.send-button {
+  margin-left: 12px;
+  background: linear-gradient(92.66deg, #3465E3 -8.75%, #5254E2 34.92%, #7248E2 75.51%, #8841E2 119.17%);
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+.send-button:hover {
+  background-color: #005fa3;
+  transform: scale(1.03);
+}
+
+
+/* .input-container {
+    display: flex;
+    padding: 16px 24px;
+    background-color: #ffffff;
+    border-top: 1px solid #ddd;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.03);
+  }
+  
+  .input-box {
+    flex: 1;
+    padding: 12px 16px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 15px;
+    outline: none;
+    margin-right: 12px;
+    transition: border-color 0.2s ease;
+  }
+  
+  .input-box:focus {
+    border-color: #0078d4;
+  }
+  
+  .send-button {
+    background: linear-gradient(92.66deg, #3465E3 -8.75%, #5254E2 34.92%, #7248E2 75.51%, #8841E2 119.17%);
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 8px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  .send-button:hover {
+    background-color: #005fa3;
+  }
+   */

@@ -1,0 +1,15 @@
+# .gitignore
+
+# Python
+__pycache__
+*.pyc
+venv
+
+# FastAPI
+*.db
+*.sqlite3
+
+# Node/React
+node_modules/
+build/
+.env.local
