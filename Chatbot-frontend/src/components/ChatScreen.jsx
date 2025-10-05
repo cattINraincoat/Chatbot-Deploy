@@ -14,6 +14,8 @@ import { baseURL, webhookURL } from "../config";
 import axios from 'axios';
 import {Tooltip} from "@mui/material"
 import ReactMarkdown from 'react-markdown';
+const apiUrl = process.env.REACT_APP_API_URL;
+console.log(apiUrl)
 
 
 
@@ -48,7 +50,7 @@ const ChatScreen = ({ messages, setMessages }) => {
 
   const getBotResponse = async (input) => {
     try{
-      const response = await axios.post("http://13.202.121.113/chat",
+      const response = await axios.post(`http://${apiUrl}/chat`,
       {
         "message":input
       })
