@@ -48,7 +48,7 @@ const ChatScreen = ({ messages, setMessages }) => {
 
   const getBotResponse = async (input) => {
     try{
-      const response = await axios.post("http://127.0.0.1:8000/chat",
+      const response = await axios.post("http://3.110.156.216/chat",
       {
         "message":input
       })
