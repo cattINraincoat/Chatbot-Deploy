@@ -21,7 +21,7 @@
   scroll-behavior: smooth;
   scrollbar-width: thin;
 } */
-.chat-screen {
+/* .chat-screen {
   display: flex;
   flex-direction: column;
   height: 100vh;
@@ -31,8 +31,32 @@
   padding-right: 10rem;
   box-sizing: border-box;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  overflow: hidden; /* Prevent outer scrollbar */
+  overflow: hidden; 
+} */
+ .chat-screen {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background: linear-gradient(135deg, #f0f2f5, #d9e2ec);
+  padding: 1rem 10rem; /* desktop default */
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  overflow: hidden;
 }
+
+/* Responsive padding for tablets and phones */
+@media (max-width: 1024px) {
+  .chat-screen {
+    padding: 2rem 4rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .chat-screen {
+    padding: 1rem 1rem;
+  }
+}
+
 
 /* .chat-messages {
   flex: 1;
@@ -145,18 +169,36 @@
   }
   
   
-  .message-content {
-    /* flex: 1; */
+  /* .message-content {
     background-color: white;
     flex-wrap: wrap;
     border-radius: 12px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
     padding: 16px;
-    /* padding: 0 12px; */
+
     width:fit-content;
     max-width: 30rem;
    
+  } */
+   .message-content {
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  padding: 12px 16px;
+  width: fit-content;
+  max-width: 80%; /* instead of fixed 30rem */
+  word-wrap: break-word;
+}
+
+/* Reduce max-width for small screens */
+@media (max-width: 600px) {
+  .message-content {
+    max-width: 90%;
+    font-size: 14px;
+    padding: 10px 12px;
   }
+}
+
   
   .message-text {
     font-size: 16px;

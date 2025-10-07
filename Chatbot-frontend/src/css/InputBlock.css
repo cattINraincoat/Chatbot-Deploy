@@ -10,7 +10,7 @@
   bottom: 0;
   z-index: 10;
   border-radius: 10px;
-  margin-bottom: 0.5rem;
+  /* margin-bottom: 0.5rem; */
 }
 
 .input-box {
@@ -45,42 +45,3 @@
   transform: scale(1.03);
 }
 
-
-/* .input-container {
-    display: flex;
-    padding: 16px 24px;
-    background-color: #ffffff;
-    border-top: 1px solid #ddd;
-    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.03);
-  }
-  
-  .input-box {
-    flex: 1;
-    padding: 12px 16px;
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    font-size: 15px;
-    outline: none;
-    margin-right: 12px;
-    transition: border-color 0.2s ease;
-  }
-  
-  .input-box:focus {
-    border-color: #0078d4;
-  }
-  
-  .send-button {
-    background: linear-gradient(92.66deg, #3465E3 -8.75%, #5254E2 34.92%, #7248E2 75.51%, #8841E2 119.17%);
-    color: white;
-    border: none;
-    padding: 12px 20px;
-    border-radius: 8px;
-    font-size: 15px;
-    cursor: pointer;
-    transition: background-color 0.2s ease;
-  }
-  
-  .send-button:hover {
-    background-color: #005fa3;
-  }
-   */
